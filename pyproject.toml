@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "probexplain"
+version = "0.1.0"
+description = "Probable explanations for decision trees (UAI 2023), tree ensembles (k-pseudo) and black-box models (BE)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scikit-learn>=1.0"]
+
+[tool.setuptools]
+packages = ["probexplain"]

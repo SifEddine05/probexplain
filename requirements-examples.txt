@@ -1,0 +1,4 @@
+# Dependencies of the scripts in examples/ (the library itself only needs numpy and scikit-learn)
+pandas
+matplotlib
+torch
