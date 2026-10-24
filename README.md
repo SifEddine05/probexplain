@@ -49,13 +49,13 @@ Requires Python >= 3.9. The library only depends on `numpy` and `scikit-learn`.
 **From GitHub.** Use this to use the library in your own code:
 
 ```bash
-pip install git+https://github.com/.../probexplain.git
+pip install git+https://github.com/SifEddine05/probexplain.git
 ```
 
 **From a clone.** Use this to get the code and the examples:
 
 ```bash
-git clone https://github.com/.../probexplain.git
+git clone https://github.com/SifEddine05/probexplain.git
 cd probexplain
 python -m venv .venv
 .venv\Scripts\activate          # Windows   (Linux / macOS: source .venv/bin/activate)
