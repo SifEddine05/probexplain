@@ -16,7 +16,7 @@ The library brings together the methods of three articles:
 
 1. L. Bounia, F. Koriche. *Approximating Probabilistic Explanations via Supermodular Minimization*. Proceedings of the 39th Conference on Uncertainty in Artificial Intelligence (UAI 2023), PMLR 216.
 2. L. Bounia. *k-Pseudo-Probable Path Explanations for Weighted Tree-Based Ensembles: Bridging Interpretability and Computational Efficiency*. In Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2026), pp. 39-57. Springer Nature Switzerland, 2026.
-3. S. E. Sellami, L. Bounia, J. Agoun, C. Rouveirol. *BanditExplain: Scalable Probabilistic Explanations with PAC Guarantees via Multi-Armed Bandits*.
+3. S. Sellami, L. Bounia, J. Agoun, C. Rouveirol. *BanditExplain: Scalable Probabilistic Explanations with PAC Guarantees via Multi-Armed Bandits*.
 
 ## Project organization
 
