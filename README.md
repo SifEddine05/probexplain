@@ -177,8 +177,8 @@ Their parameters (`K`, `ETA`, `DELTA`, instances to explain...) are constants at
 
 | Script | Dataset | Model | Explanations | Time (CPU) |
 |---|---|---|---|---|
-| `example_1_decision_tree_adult.py` | Adult | decision tree (depth 8) | UAI 2023, GD and GA | a few seconds |
-| `example_2_random_forest_adult.py` | Adult | random forest (20 trees, depth 6) | k-pseudo, GA and GD | a few seconds |
+| `example_1_decision_tree_adult.py` | Adult | decision tree | UAI 2023, GD and GA | a few seconds |
+| `example_2_random_forest_adult.py` | Adult | random forest (20 trees) | k-pseudo, GA and GD | a few seconds |
 | `example_3_neural_network_adult.py` | Adult | neural network (MLP, 64 neurons) | BE | about 1 min |
 | `example_4_cnn_mnist_heatmap.py` | MNIST, 3 vs 8 | CNN (PyTorch) | BE + heatmaps | about 2 min |
 | `example_5_text_be.py` | 20 Newsgroups, sci.med vs sci.space | neural network (MLP, 32 neurons) | BE on words | about 20 s |
