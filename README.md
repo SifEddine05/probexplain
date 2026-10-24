@@ -10,7 +10,7 @@ The library brings together the methods of three articles:
 |---|---|---|
 | **[1] UAI 2023**: probable explanations of decision trees, greedy descent (GD) and greedy ascent (GA). The error is computed exactly, uniform over the Boolean variables of the tree. | `DecisionTreeClassifier` | `DecisionTreeExplainer` |
 | **[2] k-pseudo-probable explanations** for weighted tree ensembles: GA (with a curvature-based stopping rule) and GD. The error is the average, over the trees, of their errors weighted by `1 - P_i` (`P_i`: confidence of tree `i` on `x`). | `RandomForestClassifier`, `ExtraTreesClassifier`, `BaggingClassifier` of trees | `TreeEnsembleExplainer` |
-| **[3] BE (BanditExplain)**: explanations for any black-box model, with an (η, δ)-PAC guarantee. The error is estimated by Monte-Carlo sampling on background data, and only `predict` is used. | any model with `predict` (neural networks, CNN, SVM, boosting, pipelines...) | `BlackBoxExplainer` |
+| **[3] BE (BanditExplain)**: explanations for any black-box model, with an (η, δ)-PAC guarantee. The error is estimated by Monte-Carlo sampling on background data, and only `predict` is used. | any model with `predict` (neural networks, CNN, boosting ...) | `BlackBoxExplainer` |
 
 **References**
 
