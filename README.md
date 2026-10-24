@@ -87,7 +87,7 @@ print(e)
 |---|---|---|
 | `DecisionTreeClassifier` | UAI 2023 | `"gd"` (default) or `"ga"` |
 | `RandomForestClassifier`, `ExtraTreesClassifier`, `BaggingClassifier` of trees | k-pseudo | `"ga"` (default) or `"gd"` |
-| any other model | BE | ignored; `X_background` is required |
+| any other model | BE | `X_background` is required |
 
 ```python
 e = explain(decision_tree, x, k=4, method="ga", feature_names=X.columns)
